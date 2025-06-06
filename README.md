@@ -19,3 +19,13 @@ Feedback
 If you have questions or concerns about this Privacy Policy, you can contact me by email:
 
 Email: leandrogoldberg12@gmail.com
+
+## US Economic Calendar Tool
+
+This repository includes a small script that prints upcoming high-impact US economic events. Run the script from the `calendar` folder:
+
+```bash
+python3 calendar/generate_calendar.py
+```
+
+This reads the events listed in `us_high_impact_events.csv` and outputs them grouped by date. The file contains real high-impact U.S. releases for July 2024 sourced from publicly available economic calendars.
